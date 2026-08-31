@@ -27,4 +27,4 @@ Because the robot used only a single forward ultrasonic sensor, the generated ma
 
 Possible improvements include adding side or rear sensors, using LiDAR or depth cameras, improving pose estimation with a probabilistic filter, integrating ROS 2, and testing more advanced robot-learning or Physical AI approaches.
 
-![Localisation Geometry](images/robot kinematic.png)
+![Localisation Geometry](images/robot_kinematic.png)
