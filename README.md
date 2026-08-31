@@ -3,6 +3,10 @@ This project explores whether a low-cost robot with only one forward ultrasonic 
 
 This project does not use ROS
 
+### Demo
+
+[Watch the robot navigation demo](images/ComplexMaze_SpeedUp_Clip.mov)
+
 ## Main Features
 
 - Differential-drive odometry using wheel encoder data
@@ -27,5 +31,16 @@ Because the robot used only a single forward ultrasonic sensor, the generated ma
 
 Possible improvements include adding side or rear sensors, using LiDAR or depth cameras, improving pose estimation with a probabilistic filter, integrating ROS 2, and testing more advanced robot-learning or Physical AI approaches.
 
-## Robot Localisation Geometry
+### Robot Localisation Geometry
 ![Localisation Geometry](images/robot_kinematic.png)
+
+### Heatmap
+![Heatmap](images/maze_3_heatmap.png)
+
+### Navigation Likelihood Field
+![Navigation](images/navigation_likelihood_field.png)
+
+### Different Maze Layouts
+![Maze Layout](images/3_maze_layouts.png)
+
+3 mazes - each with different purposes were built to test the robot. Maze 1 mostly contained open space. Maze 2 required an L-shaped turn to clear the starting position and subsequently navigated around a big obstacle in the middle. Maze 3 consisted of long connected walls that increase the probability of revisits where loop closure and pose-graph optimisation could be applied to reduce odometry drift.
