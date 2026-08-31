@@ -36,9 +36,12 @@ Possible improvements include adding side or rear sensors, using LiDAR or depth 
 
 ### Heatmap
 ![Heatmap](images/maze_3_heatmap.png)
+A*, Dijkstra, and BFS were calculated on the frozen map after exit detection to find out the most optimal travel route. 
 
 ### Navigation Likelihood Field
 ![Navigation](images/navigation_likelihood_field.png)
+
+Obstacle inflation. The fading halos around obstacles meant the closer the robot got to the obstacles, the heavier punishment. This encouraged the robot to keep a safe distance while navigating to avoid collision or wheel snag. 
 
 ### Different Maze Layouts
 ![Maze Layout](images/3_maze_layouts.png)
