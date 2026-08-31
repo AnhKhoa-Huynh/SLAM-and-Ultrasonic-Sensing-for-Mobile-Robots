@@ -3,6 +3,8 @@ This project explores whether a low-cost robot with only one forward ultrasonic 
 
 This project does not use ROS
 
+Split architecture: CyberPi transmitted sensor readings while laptop side carried all computations and sent action commands back. 
+
 ### Demo
 
 [Watch the robot navigation demo](images/mBot2_clip.mp4)
