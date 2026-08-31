@@ -5,7 +5,7 @@ This project does not use ROS
 
 ### Demo
 
-[Watch the robot navigation demo](images/ComplexMaze_Clip.mp4)
+[Watch the robot navigation demo](images/mBot2_clip.mp4)
 
 ## Main Features
 
